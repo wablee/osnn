@@ -23,7 +23,7 @@ jobs:
     - uses: actions/checkout@v3
 
     - name: Install clang-format
-      run: apt-get update && apt-get install clang-format
+      run: apt-get install clang-format
 
     - name: Check style
       run: find . -iname "*.h" -o -iname "*.cpp" | xargs clang-format -n
