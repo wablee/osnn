@@ -6,7 +6,7 @@ set (CMakeOSNN_VERSION_MINOR 0)
 
 add_subdirectory (src)
 include_directories (src)
-add_executable (CMakeOSNN osnn hello.cpp)
+add_executable (CMakeOSNN hello.cpp)
 
 target_link_libraries (CMakeOSNN osnn)
 

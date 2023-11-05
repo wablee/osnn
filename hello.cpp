@@ -1,7 +1,7 @@
-#include <iostream>
+#include <dummy.h>
 
 int main() {
-    std::endl << "Hello, World" << std::endl;
+    osnn::Dummy* dummy = new Dummy();
 
-    return 0;
+    dummy->greet();
 }
