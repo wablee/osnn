@@ -1,1 +1,1 @@
-# osnn
+# osnn (Open STHA Neural Network)
