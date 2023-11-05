@@ -5,4 +5,4 @@ class Dummy {
 public:
     void greet() const;
 };
-}
+}  // namespace osnn
